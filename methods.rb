@@ -1,12 +1,12 @@
 # Your code here!
-def greet_programmer ()
-    puts "Hello, programmer!"
-end
 
-def greet ( name )
+  def greet_programmer ()
+    puts  "Hello, programmer!"
+  end 
+
+  def greet ( name )
     puts "Hello, #{name}!" 
 end
-
 
 
 
@@ -21,10 +21,17 @@ end
 
 
 
+
+
 def halve(number)
-    if number.class != Integer
-        return nil
-      end
-    
-       return number / 2
-    end
+  if number.class != Integer
+    return nil
+  end
+  
+  return number / 2
+end
+ 
+
+
+
+
